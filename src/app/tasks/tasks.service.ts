@@ -26,7 +26,7 @@ export class TasksService {
             dueDate: '2024-06-15',
         },
     ];
-    
+
     getUserTasks(userId: string) {
         return this.tasks.filter((task) => task.userId === userId);
     }
